@@ -15,6 +15,11 @@ from typing import List, Dict
 
 # Configuración de APIs y Base de Datos
 
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+GOOGLE_KEY = st.secrets["GOOGLE_KEY"]
+MONGO_URI = st.secrets["MONGO_URI"]
+
+
 
 openai.api_key = OPENAI_API_KEY
 
@@ -411,4 +416,5 @@ if addr:
                 })
             st.dataframe(pd.DataFrame(display_data), use_container_width=True, hide_index=True)
     else:
+
         st.error(" No se pudo encontrar la ubicación. Intenta con una dirección más específica.")
