@@ -16,11 +16,11 @@ import re
 
 # Configuración de APIs y Base de Datos
 
-openai.api_key = OPENAI_API_KEY
-
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 GOOGLE_KEY = st.secrets["GOOGLE_KEY"]
 MONGO_URI = st.secrets["MONGO_URI"]
+
+openai.api_key = OPENAI_API_KEY
 
 DATABASE_NAME = "restaurantes_bogota_db"
 COLLECTION_NAME = "bogota_data"
@@ -407,3 +407,4 @@ if addr:
     else:
 
         st.error(" No se pudo encontrar la ubicación. Intenta con una dirección más específica.")
+
