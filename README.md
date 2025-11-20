@@ -113,23 +113,10 @@ Estos procesos también corren **en paralelo** después del scraping.
 
 ## Imágenes del Proyecto y Explicación
 
-### 1. Análisis Inteligente de Restaurantes Cercanos
+### 1. Mapa Interactivo y Búsqueda Geoespacial
 
-![Análisis Inteligente](image1_url)
+![Análisis Inteligente](resultado_2.png)
 
-**Descripción**: Muestra el resultado del análisis generado por OpenAI sobre los 5 restaurantes más cercanos a la ubicación del usuario. El sistema presenta:
-- **Resumen de cada restaurante**: Incluye tipo de comida, características destacadas y opiniones de clientes
-- **Recomendaciones personalizadas**: Basadas en calidad, relación calidad-precio y ambiente
-- **Aspectos destacados**: Calidad de ingredientes, frescura, rapidez en el servicio y presentación de platos
-
-Ejemplo de insights generados:
-- Wok In A Box: Comida asiática de calidad con platos como Lok Lak y Wokn roll
-- El Corral El Triangulo: Reconocido por hamburguesas, con opiniones sobre variación en calidad
-- Restaurante Chambaku: Especializado en pescado caribeño con porciones generosas
-
-### 2. Mapa Interactivo y Búsqueda Geoespacial
-
-![Mapa de Restaurantes](image2_url)
 
 **Descripción**: Interfaz principal de Streamlit mostrando:
 - **Campo de búsqueda**: El usuario ingresa su ubicación (ej: "calle 40 carrera 7 ma")
@@ -141,6 +128,24 @@ Ejemplo de insights generados:
   - Visualización geográfica clara del área de búsqueda
 
 La búsqueda utiliza índices geoespaciales de MongoDB (`$nearSphere`) para ordenar automáticamente por distancia.
+
+### 2. Análisis Inteligente de Restaurantes Cercanos
+
+**Descripción**: Muestra el resultado del análisis generado por OpenAI sobre los 5 restaurantes más cercanos a la ubicación del usuario. El sistema presenta:
+- **Resumen de cada restaurante**: Incluye tipo de comida, características destacadas y opiniones de clientes
+- **Recomendaciones personalizadas**: Basadas en calidad, relación calidad-precio y ambiente
+- **Aspectos destacados**: Calidad de ingredientes, frescura, rapidez en el servicio y presentación de platos
+
+Ejemplo de insights generados:
+- Wok In A Box: Comida asiática de calidad con platos como Lok Lak y Wokn roll
+- El Corral El Triangulo: Reconocido por hamburguesas, con opiniones sobre variación en calidad
+- Restaurante Chambaku: Especializado en pescado caribeño con porciones generosas
+
+
+
+![Mapa de Restaurantes](image1_url)
+
+
 
 ### 3. Pipeline DAG - Flujo de Ejecución
 
