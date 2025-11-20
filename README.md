@@ -1,7 +1,5 @@
 # Buscador Inteligente de Restaurantes – Scraping, ETL, FAISS y Streamlit
 
-**Proyecto desarrollado por Felix David Córdova García**
-
 Este proyecto implementa un sistema completo de búsqueda inteligente de restaurantes, combinando:
 
 - **Scraping paralelo** para obtención de datos
@@ -45,13 +43,9 @@ El objetivo es ofrecer una plataforma capaz de analizar restaurantes cercanos a 
 ├── scrapping_comentarios.py
 ├── upload_data.py
 ├── crear_indices_faiss.py
-├── buscar_indices_faiss.py
-├── indices.py
 ├── main.py
-├── test.py
 ├── faiss_db/
-├── requisitos.txt
-├── mapa_restaurantes_cra7_calle40.html
+├── requirements.txt
 ├── reseñas_restaurantes_api_final.json
 ├── restaurantes_bogota_multi_zona_final.json
 └── run_pipeline.sh
@@ -149,7 +143,7 @@ Ejemplo de insights generados:
 
 ### 3. Pipeline DAG - Flujo de Ejecución
 
-![Pipeline Diagram](image3_url)
+![Pipeline Diagram](etl.png)
 
 **Descripción**: Diagrama de flujo que ilustra la arquitectura del pipeline automatizado:
 
@@ -224,7 +218,7 @@ git clone https://github.com/usuario/buscador-restaurantes.git
 cd buscador-restaurantes
 
 # Instalar dependencias
-pip install -r requisitos.txt
+pip install -r requirements.txt
 
 # Configurar variables de entorno
 export OPENAI_API_KEY="tu_api_key"
