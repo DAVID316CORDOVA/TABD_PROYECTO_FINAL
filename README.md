@@ -1,6 +1,5 @@
 # Buscador Inteligente de Restaurantes – Scraping, ETL, FAISS y Streamlit
 
-**Proyecto desarrollado por Felix David Córdova García**
 
 Este proyecto implementa un sistema completo de búsqueda inteligente de restaurantes, combinando:
 
@@ -45,13 +44,9 @@ El objetivo es ofrecer una plataforma capaz de analizar restaurantes cercanos a 
 ├── scrapping_comentarios.py
 ├── upload_data.py
 ├── crear_indices_faiss.py
-├── buscar_indices_faiss.py
-├── indices.py
 ├── main.py
-├── test.py
 ├── faiss_db/
-├── requisitos.txt
-├── mapa_restaurantes_cra7_calle40.html
+├── requirements.txt
 ├── reseñas_restaurantes_api_final.json
 ├── restaurantes_bogota_multi_zona_final.json
 └── run_pipeline.sh
@@ -115,7 +110,7 @@ Estos procesos también corren **en paralelo** después del scraping.
 
 ### 1. Análisis Inteligente de Restaurantes Cercanos
 
-![Análisis Inteligente](image1_url)
+![Análisis Inteligente](resultado_1.png)
 
 **Descripción**: Muestra el resultado del análisis generado por OpenAI sobre los 5 restaurantes más cercanos a la ubicación del usuario. El sistema presenta:
 - **Resumen de cada restaurante**: Incluye tipo de comida, características destacadas y opiniones de clientes
