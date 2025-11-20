@@ -161,7 +161,7 @@ Ejemplo de insights generados:
 
 Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice correctamente antes de iniciar la siguiente, mientras maximiza la paralelización donde es posible.
 
-![Streamlit aplicacion](stream_reboot.png)
+![Streamlit aplicacion](stream_reboots.png)
 
 ---
 
