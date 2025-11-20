@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 
 # Configuración
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 openai.api_key = OPENAI_API_KEY
 
 JSON_FILE = "reseñas_restaurantes_api.json"  
@@ -144,3 +144,4 @@ print(f"   - resenas.index (índice vectorial FAISS)")
 print(f"   - metadata.json (información de reseñas)")
 
 print("\n Proceso completado. Ahora puedes usar estos archivos en tu aplicación Streamlit.")
+
