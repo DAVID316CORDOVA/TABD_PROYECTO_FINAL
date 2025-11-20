@@ -115,7 +115,7 @@ Estos procesos también corren **en paralelo** después del scraping.
 
 ### 1. Análisis Inteligente de Restaurantes Cercanos
 
-![Análisis Inteligente](image1_url)
+![Análisis Inteligente](etl.png)
 
 **Descripción**: Muestra el resultado del análisis generado por OpenAI sobre los 5 restaurantes más cercanos a la ubicación del usuario. El sistema presenta:
 - **Resumen de cada restaurante**: Incluye tipo de comida, características destacadas y opiniones de clientes
