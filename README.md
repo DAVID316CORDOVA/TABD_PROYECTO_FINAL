@@ -161,7 +161,7 @@ Ejemplo de insights generados:
 
 Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice correctamente antes de iniciar la siguiente, mientras maximiza la paralelización donde es posible.
 
-![Streamlit aplicacion](stream_reboots.png)
+![Streamlit aplicacion](stream_reboot.png)
 
 ---
 
@@ -204,15 +204,12 @@ Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice cor
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/usuario/buscador-restaurantes.git
+git clone [https://github.com/usuario/buscador-restaurantes.git](https://github.com/DAVID316CORDOVA/TABD_PROYECTO_FINAL.git)
 cd buscador-restaurantes
 
 # Instalar dependencias
 pip install -r requirements.txt
 
-# Configurar variables de entorno
-export OPENAI_API_KEY="tu_api_key"
-export MONGODB_URI="mongodb://localhost:27017/"
 ```
 
 ### Ejecución del Pipeline Completo
@@ -297,25 +294,15 @@ Las contribuciones son bienvenidas. Por favor:
 
 ---
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
----
+--
 
 ## Contacto
 
-**Felix David Córdova García**
 
-Proyecto Link: [https://github.com/usuario/buscador-restaurantes](https://github.com/usuario/buscador-restaurantes)
 
----
+Proyecto Link: [[https://github.com/usuario/buscador-restaurantes](https://github.com/usuario/buscador-restaurantes](https://github.com/DAVID316CORDOVA/TABD_PROYECTO_FINAL.git))
 
-## Roadmap
+--
 
-- [ ] Agregar más ciudades de Colombia
-- [ ] Implementar filtros por tipo de comida
-- [ ] Añadir sistema de recomendaciones basado en historial
-- [ ] Integrar más fuentes de reseñas
-- [ ] Implementar caché para consultas frecuentes
-- [ ] Añadir soporte para múltiples idiomas
