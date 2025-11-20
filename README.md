@@ -163,6 +163,9 @@ Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice cor
 
 ![Streamlit aplicacion](stream_reboots.png)
 
+
+Link de la aplicacion: https://tabdproyectofinal-n42ermakpmsz8jzncnf29h.streamlit.app/
+
 ---
 
 ## Servicios y Funcionalidades Clave
