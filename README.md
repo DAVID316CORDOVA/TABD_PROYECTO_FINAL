@@ -161,17 +161,7 @@ Ejemplo de insights generados:
 
 Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice correctamente antes de iniciar la siguiente, mientras maximiza la paralelización donde es posible.
 
-### 4. Tabla de Restaurantes Cercanos
-
-![Lista de Restaurantes](image1_bottom)
-
-**Descripción**: Tabla detallada que complementa el mapa, mostrando:
-- **Nombre**: Identificación del establecimiento
-- **Rating**: Calificación promedio del restaurante
-- **Distancia (m)**: Distancia en metros desde la ubicación del usuario
-- **Dirección**: Ubicación completa del restaurante
-
-Esta tabla se genera dinámicamente mediante la consulta geoespacial a MongoDB, ordenada automáticamente por proximidad al usuario.
+![Streamlit aplicacion](stream_reboots.png)
 
 ---
 
