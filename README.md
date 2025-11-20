@@ -124,7 +124,7 @@ Ejemplo de insights generados:
 
 ### 2. Mapa Interactivo y Búsqueda Geoespacial
 
-![Mapa de Restaurantes](image2_url)
+![Mapa de Restaurantes](resultado_2.png)
 
 **Descripción**: Interfaz principal de Streamlit mostrando:
 - **Campo de búsqueda**: El usuario ingresa su ubicación (ej: "calle 40 carrera 7 ma")
@@ -139,7 +139,7 @@ La búsqueda utiliza índices geoespaciales de MongoDB (`$nearSphere`) para orde
 
 ### 3. Pipeline DAG - Flujo de Ejecución
 
-![Pipeline Diagram](image3_url)
+![Pipeline Diagram](etl.png)
 
 **Descripción**: Diagrama de flujo que ilustra la arquitectura del pipeline automatizado:
 
@@ -159,7 +159,7 @@ Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice cor
 
 ### 4. Tabla de Restaurantes Cercanos
 
-![Lista de Restaurantes](image1_bottom)
+![Lista de Restaurantes](resultado_2.png)
 
 **Descripción**: Tabla detallada que complementa el mapa, mostrando:
 - **Nombre**: Identificación del establecimiento
@@ -311,7 +311,6 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## Contacto
 
-**Felix David Córdova García**
 
 Proyecto Link: [https://github.com/usuario/buscador-restaurantes](https://github.com/usuario/buscador-restaurantes)
 
