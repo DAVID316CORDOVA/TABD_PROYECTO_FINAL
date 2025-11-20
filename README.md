@@ -115,7 +115,7 @@ Estos procesos también corren **en paralelo** después del scraping.
 
 ### 1. Mapa Interactivo y Búsqueda Geoespacial
 
-![Análisis Inteligente](resultado_2.png)
+![Análisis Inteligente](resultado_1.png)
 
 
 **Descripción**: Interfaz principal de Streamlit mostrando:
@@ -143,7 +143,7 @@ Ejemplo de insights generados:
 
 
 
-![Mapa de Restaurantes](image1_url)
+![Mapa de Restaurantes](resultado_2.png)
 
 
 
