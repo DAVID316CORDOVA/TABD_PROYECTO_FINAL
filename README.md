@@ -1,5 +1,6 @@
 # Buscador Inteligente de Restaurantes – Scraping, ETL, FAISS y Streamlit
 
+**Proyecto desarrollado por Felix David Córdova García**
 
 Este proyecto implementa un sistema completo de búsqueda inteligente de restaurantes, combinando:
 
@@ -44,9 +45,13 @@ El objetivo es ofrecer una plataforma capaz de analizar restaurantes cercanos a 
 ├── scrapping_comentarios.py
 ├── upload_data.py
 ├── crear_indices_faiss.py
+├── buscar_indices_faiss.py
+├── indices.py
 ├── main.py
+├── test.py
 ├── faiss_db/
-├── requirements.txt
+├── requisitos.txt
+├── mapa_restaurantes_cra7_calle40.html
 ├── reseñas_restaurantes_api_final.json
 ├── restaurantes_bogota_multi_zona_final.json
 └── run_pipeline.sh
@@ -110,7 +115,7 @@ Estos procesos también corren **en paralelo** después del scraping.
 
 ### 1. Análisis Inteligente de Restaurantes Cercanos
 
-![Análisis Inteligente](resultado_1.png)
+![Análisis Inteligente](image1_url)
 
 **Descripción**: Muestra el resultado del análisis generado por OpenAI sobre los 5 restaurantes más cercanos a la ubicación del usuario. El sistema presenta:
 - **Resumen de cada restaurante**: Incluye tipo de comida, características destacadas y opiniones de clientes
@@ -124,7 +129,7 @@ Ejemplo de insights generados:
 
 ### 2. Mapa Interactivo y Búsqueda Geoespacial
 
-![Mapa de Restaurantes](resultado_2.png)
+![Mapa de Restaurantes](image2_url)
 
 **Descripción**: Interfaz principal de Streamlit mostrando:
 - **Campo de búsqueda**: El usuario ingresa su ubicación (ej: "calle 40 carrera 7 ma")
@@ -139,7 +144,7 @@ La búsqueda utiliza índices geoespaciales de MongoDB (`$nearSphere`) para orde
 
 ### 3. Pipeline DAG - Flujo de Ejecución
 
-![Pipeline Diagram](etl.png)
+![Pipeline Diagram](image3_url)
 
 **Descripción**: Diagrama de flujo que ilustra la arquitectura del pipeline automatizado:
 
@@ -159,7 +164,7 @@ Este diseño en DAG (Directed Acyclic Graph) asegura que cada etapa finalice cor
 
 ### 4. Tabla de Restaurantes Cercanos
 
-![Lista de Restaurantes](resultado_2.png)
+![Lista de Restaurantes](image1_bottom)
 
 **Descripción**: Tabla detallada que complementa el mapa, mostrando:
 - **Nombre**: Identificación del establecimiento
@@ -311,6 +316,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## Contacto
 
+**Felix David Córdova García**
 
 Proyecto Link: [https://github.com/usuario/buscador-restaurantes](https://github.com/usuario/buscador-restaurantes)
 
